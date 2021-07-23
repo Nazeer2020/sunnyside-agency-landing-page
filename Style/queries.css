@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* ============== */
+/* big screens size*/
+/* ============== */
+
+@media only screen and (max-width: 1440px) and (min-width: 801px) {
+
+    header {
+        
+        background-image: url("/images/desktop/image-header.jpg");
+    
+    }
+
+    .col {
+        width: 50.3%;
+        height: 400px;
+        margin: -3px;
+    }
+
+    .des-menu {display: block;}
+    
+
+    .fas {
+        display: none;
+    }
+
+    .brand-box {
+        display: none;
+    }
+
+    .brand-box-1{
+        display: block;
+        line-height: 1.9;
+    }
+
+    .brand-box,
+    .brand-box-1,
+    .stand-out-box {
+        padding: 50px 0;
+        
+    }
+
+.brand-box p,
+.stand-out-box p,
+.brand-box-1 P{
+    padding: 10px 100px 10px 30px;
+    text-align: left;
+    font-size: 130%;
+}
+
+ .brand-box h2,
+ .stand-out-box h2,
+ .brand-box-1 h2{
+    text-align: left;
+    padding: 20px 0 0 30px;
+    font-size: 140%;
+}
+
+section a {
+    font-size: 100%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+     .Photography-box h2,
+     .Graphic-box h2,
+    .Photography-box p,
+    .Graphic-box p {
+    position: relative;
+        }
+
+        .Graphic-box h2,
+        .Photography-box h2 {margin-top: -170px;}
+
+     .Photography-box p,
+     .Graphic-box p {
+        margin-top: 10px;
+        padding: 0 100px;
+     }
+
+    .testimonials .col {
+        width: 33.7%;
+        height: 100%;
+    }
+    
+    .testimonials p {
+        font-size: 60%;
+        padding: 10px 30px 20px 30px;
+        
+    }
+    .testimonials h4,
+    .testimonials h3,
+    .testimonials h2 {
+        font-size: 60%;
+        
+    }
+    .image-box .col {
+        width: 25.3%;
+        
+    }
+
+}
+
+/* ============== */
+/* tablet size screen */
+/* ============== */
+
+@media only screen and (max-width: 800px) and (min-width: 701px) {
+  
+    .col {
+        width: 50.3%;
+        height: 400px;
+        margin: -3px;
+    }
+
+    .des-menu {display: block;}
+    
+
+    .fas {
+        display: none;
+    }
+
+    .brand-box {
+        display: none;
+    }
+
+    .brand-box-1{
+        display: block;
+        line-height: 1.9;
+    }
+
+    .brand-box,
+    .brand-box-1,
+    .stand-out-box {
+        padding: 50px 0;
+        
+    }
+
+.brand-box p,
+.stand-out-box p,
+.brand-box-1 P{
+    padding: 10px 30px;
+    text-align: left;
+    font-size: 110%;
+}
+
+ .brand-box h2,
+ .stand-out-box h2,
+ .brand-box-1 h2{
+    text-align: left;
+    padding: 0 30px;
+    font-size: 140%;
+}
+
+section a {
+    font-size: 80%;
+    float: left;
+    padding-left: 30px;
+}
+
+
+     .Photography-box h2,
+     .Graphic-box h2,
+    .Photography-box p,
+    .Graphic-box p {
+    position: relative;
+        }
+
+        .Graphic-box h2,
+        .Photography-box h2 {margin-top: -170px;}
+
+     .Photography-box p,
+     .Graphic-box p {
+        margin-top: 10px;
+     }
+
+    .testimonials .col {
+        width: 33.5%;
+        height: 100%;
+    }
+    
+    .testimonials p {
+        font-size: 60%;
+        padding: 10px 10px 20px 10px;
+        
+    }
+    .testimonials h4,
+    .testimonials h3,
+    .testimonials h2 {
+        font-size: 60%;
+        
+    }
+    .image-box .col {
+        width: 25.3%;
+        
+    }
+
+}
+
+/* ============== */
+/* small tablet size sreen */
+/* ============== */
+
+@media only screen and (max-width: 700px) and (min-width: 481px) {
+    .col {
+        width: 50.5%;
+        height: 300px;
+        margin: -3px;
+        
+    }
+
+   
+
+    .des-menu {display: block;}
+    .des-menu a {
+        margin-left: 10px;
+    }
+
+    .fas {
+        display: none;
+    }
+
+    .brand-box {
+        display: none;
+    }
+
+    .brand-box-1{
+        display: block;
+        line-height: 1.9;
+    }
+
+    .brand-box,
+    .brand-box-1,
+    .stand-out-box {
+       padding: 50px 0;
+       height: 300px;
+        
+        
+    }
+
+.brand-box p,
+.stand-out-box p,
+.brand-box-1 P{
+    padding: 10px 30px;
+    text-align: left;
+    font-size: 85%;
+    
+}
+
+ .brand-box h2,
+ .stand-out-box h2,
+ .brand-box-1 h2{
+    text-align: left;
+    padding: 0 30px;
+    font-size: 70%;
+    
+}
+
+section a {
+    font-size: 40%;
+    float: left;
+    padding-left: 30px;
+}
+
+
+     .Photography-box h2,
+     .Graphic-box h2,
+    .Photography-box p,
+    .Graphic-box p {
+    position: relative;
+        }
+
+        .Graphic-box h2,
+        .Photography-box h2 {margin-top: -150px;}
+
+     .Photography-box p,
+     .Graphic-box p {
+        margin-top: 10px;
+     }
+
+    .testimonials .col {
+        width: 33.5%;
+        
+    }
+    
+    .testimonials p {
+        font-size: 60%;
+        padding: 10px 10px 20px 10px;
+        
+        
+    }
+    .testimonials h2 {
+        padding: 30px 0;
+    }
+    .testimonials h4,
+    .testimonials h3,
+    .testimonials h2 {
+        font-size: 60%;
+        
+    }
+    .image-box .col {
+        width: 25.6%;
+        /* margin: 0  -3px; */
+    }
+
+}
